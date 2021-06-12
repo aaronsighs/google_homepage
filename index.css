@@ -1,0 +1,119 @@
+body{
+
+}
+
+#user-header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+
+    width:100%;
+    font-size: 14px;
+
+
+}
+
+#header-links  {
+    position: relative;
+    display: flex;
+
+}
+
+#header-links a{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+#user-header a:hover{
+    text-decoration: underline ; 
+
+}
+
+#header-links >:hover{
+    text-decoration: underline ; 
+
+
+}
+#user-info  {
+
+    display: flex;
+
+}
+#user-info > *{
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+#user-info img{
+    border-radius:50%;
+    border: 4px solid transparent;
+    transform: translateY(-10px);
+}
+
+
+#user-info #drawer{
+    border-radius: 50%;
+    border: 6px solid transparent;
+    transform: translateY(-6px);
+    height:25px;
+
+}
+
+.gap{
+    display: flex;
+    flex-grow: 2;
+}
+
+
+#user-info #drawer svg{
+
+ align-self: center;
+ width:25px;
+ font-size: 25px;
+
+ max-height:25px;
+ color:gray;
+ 
+
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    right:10px;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    font-size: 12px;
+  }
+
+
+#user-info img:hover{
+    border: 4px solid rgb(236, 234, 234);
+    background-color: rgb(236, 234, 234);
+}
+
+#user-info #drawer:hover{
+    border: 6px solid rgb(236, 234, 234);
+    background-color: rgb(236, 234, 234);
+}
+#grid-header{
+
+}
