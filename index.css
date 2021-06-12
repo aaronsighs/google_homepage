@@ -23,10 +23,12 @@ body{
 #header-links a{
     margin-left:20px;
     margin-top:10px;
+    
 }
 
 #user-header a:hover{
     text-decoration: underline ; 
+    cursor: pointer;
 
 }
 
@@ -115,5 +117,72 @@ body{
     background-color: rgb(236, 234, 234);
 }
 #grid-header{
+
+}
+
+
+#logo-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#searchbox,.search-buttons{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+
+#searchbox .wrapper{
+    width:600px;
+    height:45px;
+    max-width:90%;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+}
+
+#searchbox .wrapper:hover{
+    border: 2px solid rgb(224, 222, 222);
+    box-shadow: 2px 3px 3px rgb(241, 240, 240);
+}
+
+#searchbox .wrapper svg{
+    position: absolute;
+    color:rgb(180, 179, 179);
+    transform: translateY(12.5px);
+    margin-left:8px ;
+
+
+    
+}
+
+#searchbox input{
+    width:90%;
+    margin: 5px 5%;
+    font-size: 16px;
+    height:30px;
+    border:0px solid black;
+    font-weight: 300;
+}
+
+#searchbox input:focus{
+    border: 0px transparent solid;
+    outline:0px;
+}
+
+.search-buttons button{
+    margin-left:10px;
+    background-color: rgba(245, 245, 250, 0.815);
+    border: 0px solid white;
+    padding:8px;
+    border: 1px solid  transparent;
+    font-weight: 300;
+}
+
+.search-buttons button:hover{
+
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 1px lightgray;
+    border-radius: 3px;
 
 }
